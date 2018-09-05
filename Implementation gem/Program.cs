@@ -10,6 +10,31 @@ namespace Implementation_gem
     {
         static void Main(string[] args)
         {
+            initialize();
+
+            while (true)
+            {
+                update();
+                draw();
+            }
+        }
+
+        /// <summary>
+        /// I värden i början av programmet
+        /// </summary>
+        static void initialize()
+        {
+
+        }
+
+        static void update()
+        {
+
+        }
+
+        static void draw()
+        {
+
         }
     }
 }
